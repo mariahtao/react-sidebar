@@ -15,3 +15,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  @apply sm:text-4xl mb-3 text-gray-900 text-3xl;
+}
+p {
+  @apply text-base mb-6;
+}
+.container {
+  @apply p-6 h-full;
+}
+span {
+  @apply w-full;
+}
+ul {
+  @apply list-disc my-2;
+}
+li {
+  @apply list-inside mb-2;
+}
+main {
+  @apply ml-56;
+}
